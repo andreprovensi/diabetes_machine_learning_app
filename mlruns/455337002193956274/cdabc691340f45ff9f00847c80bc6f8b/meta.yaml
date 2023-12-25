@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/cdabc691340f45ff9f00847c80bc6f8b/artifacts
+end_time: 1703543172656
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: cdabc691340f45ff9f00847c80bc6f8b
+run_name: stately-eel-313
+run_uuid: cdabc691340f45ff9f00847c80bc6f8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543151990
+status: 3
+tags: []
+user_id: andre

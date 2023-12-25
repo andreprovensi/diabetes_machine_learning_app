@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/f770e62ff4ef49588690b9243faff9b2/artifacts
+end_time: 1703542987502
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: f770e62ff4ef49588690b9243faff9b2
+run_name: delicate-crow-88
+run_uuid: f770e62ff4ef49588690b9243faff9b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542965578
+status: 3
+tags: []
+user_id: andre
