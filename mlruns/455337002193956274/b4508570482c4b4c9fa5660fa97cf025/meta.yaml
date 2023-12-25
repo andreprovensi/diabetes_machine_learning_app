@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/b4508570482c4b4c9fa5660fa97cf025/artifacts
+end_time: 1703542527933
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: b4508570482c4b4c9fa5660fa97cf025
+run_name: righteous-shrimp-910
+run_uuid: b4508570482c4b4c9fa5660fa97cf025
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542507104
+status: 3
+tags: []
+user_id: andre

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/b3abcccd4cab4bfeac07ac747cc37453/artifacts
+end_time: 1703543006870
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: b3abcccd4cab4bfeac07ac747cc37453
+run_name: nebulous-cow-632
+run_uuid: b3abcccd4cab4bfeac07ac747cc37453
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542987516
+status: 3
+tags: []
+user_id: andre

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/bac96cbb329c4fdfa560ab6c6f6b377e/artifacts
+end_time: 1703543304786
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: bac96cbb329c4fdfa560ab6c6f6b377e
+run_name: bright-doe-639
+run_uuid: bac96cbb329c4fdfa560ab6c6f6b377e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543280472
+status: 3
+tags: []
+user_id: andre
