@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/29bcde4b811e46f4bacccf3b3ff00588/artifacts
+end_time: 1703543151976
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 29bcde4b811e46f4bacccf3b3ff00588
+run_name: nimble-wren-89
+run_uuid: 29bcde4b811e46f4bacccf3b3ff00588
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543131360
+status: 3
+tags: []
+user_id: andre

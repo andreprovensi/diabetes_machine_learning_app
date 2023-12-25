@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/412fd06e18c640b6b54f973b344cbad4/artifacts
+end_time: 1703542484202
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 412fd06e18c640b6b54f973b344cbad4
+run_name: exultant-mole-341
+run_uuid: 412fd06e18c640b6b54f973b344cbad4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542451967
+status: 3
+tags: []
+user_id: andre

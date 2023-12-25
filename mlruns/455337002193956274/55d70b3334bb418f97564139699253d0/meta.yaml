@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/55d70b3334bb418f97564139699253d0/artifacts
+end_time: 1703542620408
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 55d70b3334bb418f97564139699253d0
+run_name: awesome-panda-965
+run_uuid: 55d70b3334bb418f97564139699253d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542596945
+status: 3
+tags: []
+user_id: andre

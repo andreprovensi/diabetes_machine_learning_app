@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/afba1c87c8c44883944383b42f4af7db/artifacts
+end_time: 1703543072892
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: afba1c87c8c44883944383b42f4af7db
+run_name: legendary-lynx-345
+run_uuid: afba1c87c8c44883944383b42f4af7db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543049996
+status: 3
+tags: []
+user_id: andre

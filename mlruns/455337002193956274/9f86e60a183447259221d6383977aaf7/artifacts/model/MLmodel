@@ -1,0 +1,27 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.9.2
+model_size_bytes: 1015018
+model_uuid: 207bc0391eca44fa9b4f034b149fe808
+run_id: 9f86e60a183447259221d6383977aaf7
+signature:
+  inputs: '[{"type": "string", "name": "gender"}, {"type": "double", "name": "age"},
+    {"type": "long", "name": "hypertension"}, {"type": "long", "name": "heart_disease"},
+    {"type": "string", "name": "smoking_history"}, {"type": "double", "name": "bmi"},
+    {"type": "double", "name": "HbA1c_level"}, {"type": "long", "name": "blood_glucose_level"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-12-25 22:17:23.264281'

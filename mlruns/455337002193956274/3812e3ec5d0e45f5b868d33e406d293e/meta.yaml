@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/3812e3ec5d0e45f5b868d33e406d293e/artifacts
+end_time: 1703542686924
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 3812e3ec5d0e45f5b868d33e406d293e
+run_name: legendary-shrimp-410
+run_uuid: 3812e3ec5d0e45f5b868d33e406d293e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542666497
+status: 3
+tags: []
+user_id: andre

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/7ccae61bc35f4175a9101e8770ca0ca0/artifacts
+end_time: 1703542596931
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 7ccae61bc35f4175a9101e8770ca0ca0
+run_name: smiling-skunk-351
+run_uuid: 7ccae61bc35f4175a9101e8770ca0ca0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542573143
+status: 3
+tags: []
+user_id: andre

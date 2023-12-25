@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/12c412e1cbbf41f7a1a9e2d92a062349/artifacts
+end_time: 1703542707673
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 12c412e1cbbf41f7a1a9e2d92a062349
+run_name: thoughtful-robin-120
+run_uuid: 12c412e1cbbf41f7a1a9e2d92a062349
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542686938
+status: 3
+tags: []
+user_id: andre

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/747a2c7f7a724ad0bc38d985fb3d98df/artifacts
+end_time: 1703542965559
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 747a2c7f7a724ad0bc38d985fb3d98df
+run_name: charming-wren-190
+run_uuid: 747a2c7f7a724ad0bc38d985fb3d98df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542945988
+status: 3
+tags: []
+user_id: andre

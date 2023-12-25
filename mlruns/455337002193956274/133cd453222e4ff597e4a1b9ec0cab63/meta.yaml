@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/133cd453222e4ff597e4a1b9ec0cab63/artifacts
+end_time: 1703543192138
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 133cd453222e4ff597e4a1b9ec0cab63
+run_name: serious-donkey-677
+run_uuid: 133cd453222e4ff597e4a1b9ec0cab63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543172669
+status: 3
+tags: []
+user_id: andre

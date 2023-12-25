@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/2ec42ccbf14645e7a6d733f55f908c4d/artifacts
+end_time: 1703542343507
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 2ec42ccbf14645e7a6d733f55f908c4d
+run_name: amusing-wren-197
+run_uuid: 2ec42ccbf14645e7a6d733f55f908c4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542322426
+status: 3
+tags: []
+user_id: andre

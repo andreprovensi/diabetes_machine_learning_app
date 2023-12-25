@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/3e8902a154df43ad83e892e214021022/artifacts
+end_time: 1703542767859
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 3e8902a154df43ad83e892e214021022
+run_name: dapper-grub-193
+run_uuid: 3e8902a154df43ad83e892e214021022
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542748755
+status: 3
+tags: []
+user_id: andre

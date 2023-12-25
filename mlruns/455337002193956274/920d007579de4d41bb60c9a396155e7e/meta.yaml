@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/920d007579de4d41bb60c9a396155e7e/artifacts
+end_time: 1703543093415
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 920d007579de4d41bb60c9a396155e7e
+run_name: fun-bird-39
+run_uuid: 920d007579de4d41bb60c9a396155e7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543072906
+status: 3
+tags: []
+user_id: andre

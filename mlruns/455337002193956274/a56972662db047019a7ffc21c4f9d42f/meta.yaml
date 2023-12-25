@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/a56972662db047019a7ffc21c4f9d42f/artifacts
+end_time: 1703542809497
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: a56972662db047019a7ffc21c4f9d42f
+run_name: luxuriant-finch-580
+run_uuid: a56972662db047019a7ffc21c4f9d42f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542789473
+status: 3
+tags: []
+user_id: andre

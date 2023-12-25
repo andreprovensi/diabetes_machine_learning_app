@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/1179df64ff33481881b7710dc66be64e/artifacts
+end_time: 1703543131347
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 1179df64ff33481881b7710dc66be64e
+run_name: respected-skink-537
+run_uuid: 1179df64ff33481881b7710dc66be64e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543112134
+status: 3
+tags: []
+user_id: andre

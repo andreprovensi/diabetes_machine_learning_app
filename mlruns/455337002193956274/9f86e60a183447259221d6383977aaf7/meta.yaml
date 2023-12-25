@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274/9f86e60a183447259221d6383977aaf7/artifacts
+end_time: 1703542646042
+entry_point_name: ''
+experiment_id: '455337002193956274'
+lifecycle_stage: active
+run_id: 9f86e60a183447259221d6383977aaf7
+run_name: crawling-hawk-571
+run_uuid: 9f86e60a183447259221d6383977aaf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703542620423
+status: 3
+tags: []
+user_id: andre
