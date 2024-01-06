@@ -1,6 +1,7 @@
 artifact_location: file:///c:/Users/andre/Desktop/Folders/diabetes_machine_learning_app/mlruns/455337002193956274
 creation_time: 1703542238444
 experiment_id: '455337002193956274'
-last_update_time: 1703542238444
+last_update_time: 1704502896698
 lifecycle_stage: active
-name: XGBosst_Tuning
+name: XGBoost_Tuning
+tags: {}
