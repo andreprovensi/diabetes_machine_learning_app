@@ -21,18 +21,29 @@ nav{
     width: 100%;
     height: 100px;
     padding: 10px;
-    background-color: rgba(48, 142, 205, 0.163);
+    /* background-color: rgba(48, 142, 205, 0.163); */
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: nunito;
     font-size: 1.4rem;
+    background: linear-gradient(#a3bded , #6991c7);
+    box-shadow: 0px 1px 2px 2px #6991c7;
+    z-index: 1;
 }
 
-nav>a{
+nav a{
     margin: 0 30px;
     text-decoration: none;
     color: black;
+    /* border: 1px solid; */
+    padding: 10px;
+    /* background-color: rgba(122, 142, 240, 0.541);   */
+    /* background-color: rgba(122, 142, 240, 0.541);   */
+    background: linear-gradient(#f5f7fa , #c3cfe2);
+    border-radius: 5px;
+    
+    
 }
 
 a:hover{
@@ -47,8 +58,11 @@ a:hover{
     justify-content: center;
     height: 100%;
     width: 100%;
-    background: radial-gradient(circle, rgba(228,231,245,1) 0%, rgba(177,177,178,1) 48%, rgba(171,171,171,0.9921218487394958) 100%);
-
+    /* background: radial-gradient(circle, rgba(228,231,245,1) 0%, rgba(177,177,178,1) 48%, rgba(171,171,171,0.9921218487394958) 100%); */
+    /* background: radial-gradient(circle, #868f96 , #596164); */
+    background: radial-gradient(circle, #fdfcfb , #e2d1c3);
+    
+    
 }
 
 iframe{
