@@ -18,7 +18,7 @@
     <div class="notebook-container">
 
             <div class="form-container">
-                <form action="/predict" method="post">
+                <form action="/predict" method="post" >
 
                     <div class="feature-container feature-gender">
                         <div class="feature-name">
@@ -26,12 +26,12 @@
                         </div>
         
                         <label for="male">
-                            <input type="radio" name="gender" id="male" required>
+                            <input type="radio" name="gender" id="male" required value="Male">
                             Male
                         </label>
 
-                        <label for="male">
-                            <input type="radio" name="gender" id="female" required>
+                        <label for="female">
+                            <input type="radio" name="gender" id="female" required value="Female">
                             Female
                         </label>
                     </div>
@@ -42,12 +42,12 @@
                         </div>
 
                         <label for="hypertension-yes">
-                            <input type="radio" name="hypertension" id="hypertension-yes" required>
+                            <input type="radio" name="hypertension" id="hypertension-yes" required value="1">
                             YES
                         </label>
                         
                         <label for="hypertension-no">
-                            <input type="radio" name="hypertension" id="hypertension-no" required>
+                            <input type="radio" name="hypertension" id="hypertension-no" required value="0">
                             NO
                         </label>
                     </div>
@@ -57,12 +57,12 @@
                             HEART DISEASE
                         </div>
                         <label for="heart-diesease-yes">
-                            <input type="radio" name="heart_disease" id="heart-diesease-yes" required>
+                            <input type="radio" name="heart_disease" id="heart-diesease-yes" required value="1">
                             YES
                         </label>
                             
                         <label for="heart-diesease-no">
-                            <input type="radio" name="heart_disease" id="heart-diesease-no" required>
+                            <input type="radio" name="heart_disease" id="heart-diesease-no" required value="0">
                             NO
                         </label>
                     </div>
@@ -104,13 +104,13 @@
                         </label>
                     </div>
 
-                    <div class="feature-container feature-weight">
+                    <div class="feature-container feature-age">
                         <div class="feature-name">
                             AGE [years]
                         </div>
 
-                        <label for="weight">
-                            <input type="number" name="weight" id="weight" max="110" min='1' required>
+                        <label for="age">
+                            <input type="number" name="age" id="age" max="110" min='1' required>
                         </label>
                     </div>
                         
@@ -119,8 +119,8 @@
                             blood glucose level [mg/dl]
                         </div>
 
-                        <label for="weight">
-                            <input type="number" name="blood_glucose_level" id="weight" max="300" min='70' list="tickmarks" required>
+                        <label for="glucose">
+                            <input type="number" name="blood_glucose_level" id="glucose" max="300" min='70' list="tickmarks" required>
         
                         </label>
                     </div>
@@ -130,13 +130,16 @@
                             HbA1c_level [%]
                         </div>
 
-                        <label for="weight">
-                            <input type="number" name="HbA1c_level" id="weight" max="12" min='5' list="tickmarks" required>
+                        <label for="HbA1c">
+                            <input type="number" name="HbA1c_level" id="HbA1c" max="12" min='5' list="tickmarks" required>
                         </label>
                     </div>
 
+                    <div class="submit">
+                        <button type="submit">PREDICT</button>
+                    </div>
                     
-                        
+                    
                 </form>
             </div>
 

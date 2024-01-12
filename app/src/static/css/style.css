@@ -134,6 +134,20 @@ input[type='number'], select{
     
 }
 
+.submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit button{
+    width: 150px;
+    background-color: rgb(111, 161, 219);
+    font-family: nunito;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
 
 @media (max-width:400px) {
     .form-container{
