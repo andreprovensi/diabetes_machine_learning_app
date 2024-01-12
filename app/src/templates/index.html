@@ -17,6 +17,142 @@
     
     <div class="notebook-container">
 
+            <div class="form-container">
+                <form action="/predict" method="post">
+
+                    <div class="feature-container feature-gender">
+                        <div class="feature-name">
+                            GENDER
+                        </div>
+        
+                        <label for="male">
+                            <input type="radio" name="gender" id="male" required>
+                            Male
+                        </label>
+
+                        <label for="male">
+                            <input type="radio" name="gender" id="female" required>
+                            Female
+                        </label>
+                    </div>
+
+                    <div class="feature-container feature-hypertension">
+                        <div class="feature-name">
+                            HYPERTENSION
+                        </div>
+
+                        <label for="hypertension-yes">
+                            <input type="radio" name="hypertension" id="hypertension-yes" required>
+                            YES
+                        </label>
+                        
+                        <label for="hypertension-no">
+                            <input type="radio" name="hypertension" id="hypertension-no" required>
+                            NO
+                        </label>
+                    </div>
+                    
+                    <div class="feature-container feature-heart-diesease">
+                        <div class="feature-name">
+                            HEART DISEASE
+                        </div>
+                        <label for="heart-diesease-yes">
+                            <input type="radio" name="heart_disease" id="heart-diesease-yes" required>
+                            YES
+                        </label>
+                            
+                        <label for="heart-diesease-no">
+                            <input type="radio" name="heart_disease" id="heart-diesease-no" required>
+                            NO
+                        </label>
+                    </div>
+
+                    <div class="feature-container feature-smoking-history">
+                        <div class="feature-name">
+                            SMOKING HISTORY
+                        </div>
+
+                        <label for="smoking-options">
+                            <select name="smoking_history" id="smoking-options" required>
+                                <option value="never">Never</option>
+                                <option value="former">Former</option>
+                                <option value="current">Current</option>
+                                <option value="not current">Not Current</option>
+                                <option value="ever">Ever</option>
+                                <option value="">No Info</option>
+                            </select>
+                        </label>
+                    </div>
+                        
+                    <div class="feature-container feature-height">
+                        <div class="feature-name">
+                            HEIGHT [cm]
+                        </div>
+
+                        <label for="height_feature">
+                            <input type="number" name="height" id="height_feature" max="270" min='30' required>
+                        </label>
+                    </div>
+
+                    <div class="feature-container feature-weight">
+                        <div class="feature-name">
+                            WEIGHT [kg]
+                        </div>
+
+                        <label for="weight">
+                            <input type="number" name="weight" id="weight" max="250" min='30' required>
+                        </label>
+                    </div>
+
+                    <div class="feature-container feature-weight">
+                        <div class="feature-name">
+                            AGE [years]
+                        </div>
+
+                        <label for="weight">
+                            <input type="number" name="weight" id="weight" max="110" min='1' required>
+                        </label>
+                    </div>
+                        
+                    <div class="feature-container feature-glucose">
+                        <div class="feature-name">
+                            blood glucose level [mg/dl]
+                        </div>
+
+                        <label for="weight">
+                            <input type="number" name="blood_glucose_level" id="weight" max="300" min='70' list="tickmarks" required>
+        
+                        </label>
+                    </div>
+
+                    <div class="feature-container feature-HbA1c_level">
+                        <div class="feature-name">
+                            HbA1c_level [%]
+                        </div>
+
+                        <label for="weight">
+                            <input type="number" name="HbA1c_level" id="weight" max="12" min='5' list="tickmarks" required>
+                        </label>
+                    </div>
+
+                    
+                        
+                </form>
+            </div>
+
+        
+
+            <!-- # df_columns = [
+            #     'gender',
+            #     'age',
+            #     'hypertension',
+            #     'heart_disease',
+            #     'smoking_history',
+            #     'bmi',
+            #     'HbA1c_level',
+            #     'blood_glucose_level',
+            #     'diabetes'
+            # ] -->
     </div>
 </body>
 
