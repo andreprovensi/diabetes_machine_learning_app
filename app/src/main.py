@@ -42,25 +42,25 @@ def notebook_file():
 
 @app.route('/predict', methods=['POST'])
 def make_prediction():
-    input_data = request.get_json()
+    if request.method == "POST":
+        classifier = pickle.load(open('../models/diabetes_model','rb'))
 
-    classifier = pickle.load(open('../models/diabetes_model','rb'))
+        height = float(request.form.get('height'))
+        weight = float( request.form.get('weight'))
 
-    dict_for_input_dataframe = {feature:[input_data.get(feature)] for feature in df_columns}
+        bmi = weight / (height/100)**2
 
-    df_input_pipeline = pd.DataFrame.from_dict(dict_for_input_dataframe)
+        request_values_dict_for_df = {k:[request.form.get(k)] for k in request.form.to_dict()}
+        request_values_dict_for_df['bmi'] = [bmi]
 
-    prediction = classifier.predict_proba()[:,1]
+        df_for_model_prediction = pd.DataFrame.from_dict(request_values_dict_for_df)
 
+        prediction = classifier.predict_proba(df_for_model_prediction)[0][1]
+        print(prediction)
     
-# colunas = None
-# @app.route('/cotacao/',methods=['POST'])
-# def cotacao():
-#     dados = request.get_json()
-#     dados_input = [dados[col] for col in colunas]
-#     print(dados_input)
-#     preco = classifier.predict([dados_input])
-#     return jsonify(preco=preco[0])
+
+        return render_template('index.html')
+
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
