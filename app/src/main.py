@@ -10,21 +10,6 @@ df_diabetes = pd.read_csv('../data/diabetes_prediction_dataset.csv',nrows=2)
 
 df_columns = df_diabetes.columns.tolist()
 
-# df_columns = [
-#     'gender',
-#     'age',
-#     'hypertension',
-#     'heart_disease',
-#     'smoking_history',
-#     'bmi',
-#     'HbA1c_level',
-#     'blood_glucose_level',
-#     'diabetes'
-# ]
-
-target = 'diabetes'
-
-
 app = Flask(__name__)
 
 
@@ -42,25 +27,28 @@ def notebook_file():
 
 @app.route('/predict', methods=['POST'])
 def make_prediction():
-    if request.method == "POST":
-        classifier = pickle.load(open('../models/diabetes_model','rb'))
 
-        height = float(request.form.get('height'))
-        weight = float( request.form.get('weight'))
+    serialized_model = open('../models/diabetes_model','rb')
+    classifier = pickle.load(serialized_model)
 
-        bmi = weight / (height/100)**2
+    height = float(request.form.get('height'))
+    weight = float( request.form.get('weight'))
 
-        request_values_dict_for_df = {k:[request.form.get(k)] for k in request.form.to_dict()}
-        request_values_dict_for_df['bmi'] = [bmi]
+    bmi = weight / (height/100)**2
 
-        df_for_model_prediction = pd.DataFrame.from_dict(request_values_dict_for_df)
+    request_values_dict_for_df = {k:[request.form.get(k)] for k in request.form.to_dict()}
+    request_values_dict_for_df['bmi'] = [bmi]
 
-        prediction = classifier.predict_proba(df_for_model_prediction)[0][1]
-        print(prediction)
+    df_for_model_prediction = pd.DataFrame.from_dict(request_values_dict_for_df)
+
+    prediction = classifier.predict_proba(df_for_model_prediction)[0][1]
+    print(prediction)
     
-
-        return render_template('index.html')
+    serialized_model.close()
+    
+    return jsonify({'prediction':str(round(prediction*100,1))})
+    # return render_template('index.html',prediction=prediction)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
