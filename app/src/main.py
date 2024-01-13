@@ -3,9 +3,6 @@ import pandas as pd
 import pickle
 import os
 
-# with open('../models/diabetes_model','rb') as file:
-#     classifier = pickle.load(file)
-
 df_diabetes = pd.read_csv('../data/diabetes_prediction_dataset.csv',nrows=2)
 
 df_columns = df_diabetes.columns.tolist()
