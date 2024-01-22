@@ -46,7 +46,9 @@ def create_API():
         
         return jsonify({'prediction':str(round(prediction*100,1))})
     
-    app.run(debug=False)
+    return app
 
 if __name__ == '__main__':
-    create_API()
+    
+    API = create_API()
+    API.run(debug=True)
