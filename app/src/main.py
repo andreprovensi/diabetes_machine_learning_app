@@ -3,11 +3,10 @@ import pandas as pd
 import pickle
 import os
 
-if __name__ == '__main__':
+
+def create_API():
 
     df_diabetes = pd.read_csv('../data/diabetes_prediction_dataset.csv',nrows=2)
-
-    df_columns = df_diabetes.columns.tolist()
 
     app = Flask(__name__)
 
@@ -46,5 +45,8 @@ if __name__ == '__main__':
         serialized_model.close()
         
         return jsonify({'prediction':str(round(prediction*100,1))})
-
+    
     app.run(debug=False)
+
+if __name__ == '__main__':
+    create_API()
