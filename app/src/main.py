@@ -26,25 +26,26 @@ def create_API():
     @app.route('/predict', methods=['POST'])
     def make_prediction():
 
-        serialized_model = open('../models/diabetes_model','rb')
-        classifier = pickle.load(serialized_model)
+        with open('../models/diabetes_model','rb') as serialized_model:
+        # serialized_model = open('../models/diabetes_model','rb')
+            classifier = pickle.load(serialized_model)
 
-        height = float(request.form.get('height'))
-        weight = float( request.form.get('weight'))
+            height = float(request.form.get('height'))
+            weight = float( request.form.get('weight'))
 
-        bmi = weight / (height/100)**2
+            bmi = weight / (height/100)**2
 
-        request_values_dict_for_df = {k:[request.form.get(k)] for k in request.form.to_dict()}
-        request_values_dict_for_df['bmi'] = [bmi]
+            request_values_dict_for_df = {k:[request.form.get(k)] for k in request.form.to_dict()}
+            request_values_dict_for_df['bmi'] = [bmi]
 
-        df_for_model_prediction = pd.DataFrame.from_dict(request_values_dict_for_df)
+            df_for_model_prediction = pd.DataFrame.from_dict(request_values_dict_for_df)
 
-        prediction = classifier.predict_proba(df_for_model_prediction)[0][1]
-        print(prediction)
-        
-        serialized_model.close()
-        
-        return jsonify({'prediction':str(round(prediction*100,1))})
+            prediction = classifier.predict_proba(df_for_model_prediction)[0][1]
+            print(prediction)
+            
+            # serialized_model.close()
+            
+            return jsonify({'prediction':str(round(prediction*100,1))})
     
     return app
 

@@ -144,6 +144,10 @@ input[type='number'], select{
 
 }
 
+#submit-prediction:hover{
+    cursor: pointer;
+}
+
 .probability{
     display: flex;
     width: 80%;
