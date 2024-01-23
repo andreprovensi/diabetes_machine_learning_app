@@ -42,7 +42,8 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
+    /* height: 50px;  */
     
     
 }
@@ -167,6 +168,17 @@ input[type='number'], select{
     text-align: justify;
 }
 
+@media (max-width:865px) {
+    
+    nav a {
+        font-size: 20px;
+        margin: 0 10px;
+        height: 50px;
+      
+    }
+
+}
+
 @media (max-width:500px) {
     .form-container{
         border: 1px solid;
@@ -201,6 +213,7 @@ input[type='number'], select{
     nav a {
         font-size: 12px;
         margin: 0 2px;
+        height: 40px;
       
     }
 
