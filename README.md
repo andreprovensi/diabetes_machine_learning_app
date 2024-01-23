@@ -7,7 +7,7 @@ Welcome to my Machine Learning Diabetes Prediction Portfolio Project! The projec
 
 
 - **Machine Learning Model Development:**
-  - I have created a sophisticated XGBoost model for diabetes prediction. The model has been fine-tuned using Optuna, an optimization framework, to enhance its performance. It leverages machine learning techniques to make predictions based on features such as gender, age, hypertension, heart disease, smoking history, BMI, HbA1c level, blood glucose level, and more.
+  - I have created a XGBoost model for diabetes prediction. The model has been fine-tuned using Optuna, an optimization framework, to enhance its performance. It leverages machine learning techniques to make predictions based on features such as gender, age, hypertension, heart disease, smoking history, BMI, HbA1c level, blood glucose level, and more.
 
 - **Jupyter Notebook:**
   - The model development process is thoroughly documented in a Jupyter notebook (`diabetes_notebook.ipynb`). It covers the steps taken, feature engineering, XGBoost model creation, and the application of Optuna for hyperparameter tuning.
@@ -39,7 +39,7 @@ Welcome to my Machine Learning Diabetes Prediction Portfolio Project! The projec
 
 3. **Run the Flask App:**
    ```bash
-   python app/main.py
+   python app/src/main.py
 
 
 
