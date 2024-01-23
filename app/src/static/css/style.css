@@ -41,7 +41,8 @@ nav a{
     width: 250px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    text-align: center; 
     
     
 }
@@ -183,5 +184,24 @@ input[type='number'], select{
         
     }
 
+    .disclaimer{
+        margin: 10px;
+    }
+
+    .input-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav{
+        
+        justify-content: space-between;
+    }
+    nav a {
+        font-size: 12px;
+        margin: 0 2px;
+      
+    }
 
 }
