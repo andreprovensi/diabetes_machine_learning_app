@@ -32,17 +32,6 @@ def create_API():
 
     @app.route('/predict', methods=['POST'])
     def make_prediction():
-        
-        # if __name__ == "__main__":
-        #     path_to_app = '\\'.join(os.getcwd().split('\\')[:-1])
-        #     model_path = os.path.join(path_to_app,'models','diabetes_model')
-        # else:
-        #     script_dir = os.path.dirname(os.path.abspath('__file__'))
-        #     model_path = os.path.join(script_dir,'models','diabetes_model')
-        
-        # with open(model_path,'rb') as serialized_model:
-       
-        # classifier = pickle.load(serialized_model)
 
         height = float(request.form.get('height'))
         weight = float( request.form.get('weight'))

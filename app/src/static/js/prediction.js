@@ -14,7 +14,3 @@ predictionForm.addEventListener('submit', async function(e) {
     document.getElementById("prediction-result").textContent = predictionProbability + ' %';
 
 });
-
-setInterval(() => {
-    fetch("/predict")
-}, 30*1000);
