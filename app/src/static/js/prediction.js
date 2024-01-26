@@ -17,4 +17,4 @@ predictionForm.addEventListener('submit', async function(e) {
 
 setInterval(() => {
     fetch("/predict")
-}, 14*60*1000);
+}, 30*1000);
