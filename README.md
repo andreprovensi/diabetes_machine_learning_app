@@ -1,6 +1,7 @@
 # ML Diabetes Prediction Portfolio Project
 
 Welcome to my Machine Learning Diabetes Prediction Portfolio Project! The project includes a Jupyter notebook for the model development, a Flask-based backend for making predictions, and features an XGBoost model tuned with Optuna while tracking experiments with MLflow.
+You can check the app on https://diabetes-prediction-mgje.onrender.com/
 
 ## Project Overview
 
