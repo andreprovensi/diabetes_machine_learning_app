@@ -32,7 +32,7 @@ You can check the app on https://diabetes-prediction-mgje.onrender.com/
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/andreprovensi/diabetes_machine_learning_app.git
-   cd diabetes_machine_learning_app
+   cd diabetes_machine_learning_app/app
    
 2. **Install Dependencies:**
    ```bash
